@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input{
+  width: 200px;
+  height: 30px;
+  padding-left: 15px;
+}
+
+button{
+  margin-left: 20px;
+  margin-top: 10px;
+  height: 33px;
+  width: 75px;
+  padding: 0 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.App button{
+  background-color: rgb(44, 210, 44);
+}
+
+.App button:hover{
+  background-color: rgb(29, 137, 29);
+}
+
+.todo{
+  margin: 50px 50px 0 50px;
+}
+
+.inner{
+  text-align: justify;
+  padding: 5px 20px 5px 5px;
+}
+
+.inner button{
+  background-color: red;
+}
+
+.inner button:hover{
+  background-color: rgb(149, 18, 18);
+}
+
+.inner:hover{
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  border: none;
+}
+
+::marker{
+  color: rebeccapurple;
+}
+
